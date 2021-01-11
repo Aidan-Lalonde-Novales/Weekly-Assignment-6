@@ -14,8 +14,8 @@ function pizzaCost () {
   const toppingFour = document.getElementById('fourtopping').value
   const pickedSize = document.getElementById('size').value
   const pickedToppings = document.getElementById('toppingamount').value
-  // Sets variables to values on the form. Needed to make the following statements work. 
-  
+  // Sets variables to values on the form. Needed to make the following statements work.
+
   if (pickedSize === large && pickedToppings === toppingOne) {
     alert('The Cost of your Pizza is $7.91.')
   } else if (pickedSize === large && pickedToppings === toppingTwo) {
